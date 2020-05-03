@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html
+{
+    font-size:16px;
+    height: 100%;
+}
+
+body {
+    font-size: 1.5rem;
+    font-family: 'Work Sans';
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 0.5rem 0rem;
+}
+
+.card {
+    margin: 17% 9%;
+    width: 50%;
+    z-index: 2;
+    position: absolute;
+
+}
+
+.title {
+    font-weight:900;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.container {  
+    height: 100%;
+    width: 100%;
+    }
+    
+.illustrations {
+    height: 100%;
+    z-index: -2;
+    display: flex;
+}
+
+.illustrations img {
+    height: 100%;
+}
+
+#menu table {
+    width: 60%;
+}
